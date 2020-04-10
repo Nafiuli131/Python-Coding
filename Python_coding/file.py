@@ -1,0 +1,10 @@
+myFile = open('Nafiul.txt','w')
+'''print('Name:',myFile.name)
+print('Is Closed',myFile.closed)
+'''
+myFile.write('I am Nafiul Islam ')
+myFile.write('I am a good boy')
+myFile.close()
+myFile=open('Nafiul.txt','r+')
+text=myFile.read(100)
+print(text)

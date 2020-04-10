@@ -1,0 +1,19 @@
+person={
+    'first_name':'Nafiul',
+    'last_name':'Islam',
+    'age':23
+}
+'''person2=dict(first_name='Nafi',last_name='I')'''
+'''print(person['age'])
+person['hobby']='Programming'
+print(person)
+print(person.keys())'''
+person2=person.copy()
+person2['hobby']='Programming'
+print(person2)
+print(len(person2))
+people=[
+    {'name':'Nafiul','age':23},
+    {'name':'Islam','age':24}
+]
+print(people[1])
